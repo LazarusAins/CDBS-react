@@ -220,8 +220,8 @@ function DescriptionsSection({
           <div className="flex flex-col gap-10 justify-center">
             <h2 className="text-6xl font-thin">{title1}</h2>
             <div className="flex flex-col gap-5">
-              <p className="text-2xl font-thin leading-10">{para1a}</p>
-              <p className="text-2xl font-thin leading-10">{para1b}</p>
+              <p className="text-3xl font-thin leading-10">{para1a}</p>
+              <p className="text-3xl font-thin leading-10">{para1b}</p>
             </div>
           </div>
         </div>
@@ -235,8 +235,8 @@ function DescriptionsSection({
             <div className="flex flex-col gap-10 justify-center">
               <h2 className="text-6xl font-thin">{title2}</h2>
               <div className="flex flex-col gap-5">
-                <p className="text-2xl font-thin leading-10">{para2a}</p>
-                <p className="text-2xl font-thin leading-10">{para2b}</p>
+                <p className="text-3xl font-thin leading-10">{para2a}</p>
+                <p className="text-3xl font-thin leading-10">{para2b}</p>
               </div>
             </div>
           </div>
@@ -252,8 +252,8 @@ function DescriptionsSection({
           <div className="flex flex-col gap-10 justify-center">
             <h2 className="text-6xl font-thin">{title3}</h2>
             <div className="flex flex-col gap-5">
-              <p className="text-2xl font-thin leading-10">{para3a}</p>
-              <p className="text-2xl font-thin leading-10">{para3b}</p>
+              <p className="text-3xl font-thin leading-10">{para3a}</p>
+              <p className="text-3xl font-thin leading-10">{para3b}</p>
             </div>
           </div>
         </div>
@@ -267,8 +267,8 @@ function DescriptionsSection({
             <div className="flex flex-col gap-10 justify-center">
               <h2 className="text-6xl font-thin">{title4}</h2>
               <div className="flex flex-col gap-5">
-                <p className="text-2xl font-thin leading-10">{para4a}</p>
-                <p className="text-2xl font-thin leading-10">{para4b}</p>
+                <p className="text-3xl font-thin leading-10">{para4a}</p>
+                <p className="text-3xl font-thin leading-10">{para4b}</p>
               </div>
             </div>
           </div>

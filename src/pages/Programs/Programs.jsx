@@ -1,12 +1,12 @@
 import Hero from "../../components/Hero/Hero";
 import DescriptionsSection from "./components/DescriptionsSection";
-import desc1 from "../../assets/images/kindergarten-1.jpg";
-import desc2 from "../../assets/images/grade-school-1.jpg";
-import desc3 from "../../assets/images/junior-high-school.jpg";
-import desc4 from "../../assets/images/senior-high-school.jpg";
+import P1 from "../../assets/gallery/P1.jpg";
+import P2 from "../../assets/gallery/P2.jpg";
+import P3 from "../../assets/gallery/P3.jpg";
+import P4 from "../../assets/gallery/P4.jpg";
+import P5 from "../../assets/gallery/P5.jpg";
 import Highlight from "../../components/Highlight/Highlight";
 import FooterSection from "../Home/components/FooterSection";
-import highlight from "../../assets/images/programs-image-1.jpg";
 import { useEffect } from "react";
 
 function Programs() {
@@ -29,38 +29,38 @@ function Programs() {
         title4="Senior High School"
         para4a="In Senior High School, learners manifest servant leadership by conducting impactful research aligned with the school’s advocacies. They exemplify academic excellence, gaining admission to their university of choice while receiving career guidance to identify their future paths."
         para4b="Through various activities emphasizing openness, respect, and interdependence, students prepare to thrive in a multicultural community and a global environment, equipping them for success in an interconnected world."
-        image1={desc1}
-        image2={desc2}
-        image3={desc3}
-        image4={desc4}
+        image1={P1}
+        image2={P2}
+        image3={P3}
+        image4={P4}
       />
-      <Highlight type={1} image={highlight}>
+      <Highlight type={1} image={P5}>
         <div className={`ml-24 flex flex-col gap-5 mt-24`}>
-          <p className="text-2xl font-thin leading-10">
+          <p className="text-3xl font-thin leading-10">
             <p>Faith Dimension General Objective:</p>
             To nurture a strong Christian faith and Salesian spirituality,
             fostering personal devotion to Mary and Jesus while guiding learners
             toward upright citizenship and meaningful vocations.
           </p>
-          <p className="text-2xl font-thin leading-10">
+          <p className="text-3xl font-thin leading-10">
             <p>Academic Dimension General Objective:</p>
             To build academic competence through the K-12 curriculum,
             emphasizing mastery of essential concepts and lifelong learning
             skills for future success.
           </p>
-          <p className="text-2xl font-thin leading-10">
+          <p className="text-3xl font-thin leading-10">
             <p>Technical Dimension General Objective:</p>
             To develop technical knowledge and skills in basic and advanced
             processes, preparing learners for 21st-century tools through the
             K-12 program and electives.
           </p>
-          <p className="text-2xl font-thin leading-10">
+          <p className="text-3xl font-thin leading-10">
             <p>Social Dimension General Objective:</p>
             To instill pride and responsible citizenship by embracing cultural
             heritage and encouraging charitable service, aligned with Catholic
             principles.
           </p>
-          <p className="text-2xl font-thin leading-10">
+          <p className="text-3xl font-thin leading-10">
             <p>Growth Dimension General Objective:</p>
             To enhance self-discipline and socio-emotional maturity, fostering
             effective interpersonal skills through homeroom programs and

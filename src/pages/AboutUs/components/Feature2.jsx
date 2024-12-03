@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import schoolImage from "../../../assets/images/about-us-image-1.jpg";
+import AB4 from "../../../assets/gallery/AB4.jpg";
 import gsap from "gsap";
 import { useEffect } from "react";
 
@@ -54,37 +54,37 @@ function Feature2() {
     <div className="flex flex-row px-20 mb-10">
       <div className="closed">
         <div className="reveal opacity-0">
-          <img src={schoolImage} className="lg-image about-us-image" />
+          <img src={AB4} className="lg-image about-us-image" />
         </div>
       </div>
       <div className="w-1/2 feature-container mt-28">
         <div>
           <h2 className="font-thin text-6xl mb-10">Values That Guide Us</h2>
           <div className="flex flex-col gap-10">
-            <h2 className="text-2xl font-thin leading-10">
+            <h2 className="text-3xl font-thin leading-10">
               <span className="font-bold">S</span>elf-Sacrifice: Demonstrates
               selflessness, sensitivity to others' needs, and advocates for the
               marginalized without expecting anything in return.
             </h2>
-            <h2 className="text-2xl font-thin leading-10">
+            <h2 className="text-3xl font-thin leading-10">
               <span className="font-bold">O</span>bedience: Commits to school
               culture and follows established rules and norms.
             </h2>
-            <h2 className="text-2xl font-thin leading-10">
+            <h2 className="text-3xl font-thin leading-10">
               <span className="font-bold">R</span>espect: Displays courtesy,
               embraces diversity, contributes humbly, and shows care for the
               environment.
             </h2>
-            <h2 className="text-2xl font-thin leading-10">
+            <h2 className="text-3xl font-thin leading-10">
               <span className="font-bold">I</span>ntegrity: Upholds ethical
               standards, transparency, accountability, and honesty in all
               actions.
             </h2>
-            <h2 className="text-2xl font-thin leading-10">
+            <h2 className="text-3xl font-thin leading-10">
               <span className="font-bold">S</span>implicity: Lives modestly,
               values practicality, shows gratitude, and adapts to challenges.
             </h2>
-            <h2 className="text-2xl font-thin leading-10">
+            <h2 className="text-3xl font-thin leading-10">
               <span className="font-bold">E</span>xcellence: Exhibits strong
               character, resilience, and fosters creativity for meaningful
               impact.

@@ -2,10 +2,10 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import image from "../../../assets/images/feature-image-1.jpg";
-import image2 from "../../../assets/images/feature-image-2.jpg";
-import image3 from "../../../assets/images/feature-image-3.jpg";
-import image4 from "../../../assets/images/feature-image-4.jpg";
+import H3 from "../../../assets/gallery/H3.jpg";
+import H4 from "../../../assets/gallery/H4.jpg";
+import H5 from "../../../assets/gallery/H5.jpg";
+import H6 from "../../../assets/gallery/H6.jpg";
 
 function FeatureSection() {
   gsap.registerPlugin(ScrollTrigger);
@@ -111,14 +111,14 @@ function FeatureSection() {
     <div className="swipe-section">
       <section
         className="h-dvh px-10 my-10 feature-image panel"
-        style={{ backgroundImage: `url(${image})` }}
+        style={{ backgroundImage: `url(${H3})` }}
       >
         <div className="h-52 w-1/3 border-t-2 border-white-500 pt-8 absolute top-32 ">
           <h2 className="text-8xl font-thin text-white">01/04</h2>
         </div>
 
         <div className="absolute bottom-0 right-0 border-white-500 pt-24 w-screen pb-24 bg-news flex justify-end">
-          <h2 className="text-2xl font-thin text-white w-1/3 pr-10">
+          <h2 className="text-3xl font-thin text-white w-1/3 pr-10">
             The Robotics program at Caritas Don Bosco School engages students in
             hands-on learning, where they build and program robots. This subject
             nurtures critical thinking, problem-solving, and teamwork, preparing
@@ -128,13 +128,13 @@ function FeatureSection() {
       </section>
       <div
         className="h-dvh px-10 my-10 feature-image panel x-100"
-        style={{ backgroundImage: `url(${image2})` }}
+        style={{ backgroundImage: `url(${H4})` }}
       >
         <div className="h-52 w-1/3 border-t-2 border-white-500 pt-8 absolute top-32 ">
           <h2 className="text-8xl font-thin text-white">02/04</h2>
         </div>
         <div className="absolute bottom-0 right-0 border-white-500 pt-24 w-screen pb-24 bg-news flex justify-end">
-          <h2 className="text-2xl font-thin text-white w-1/3 pr-10">
+          <h2 className="text-3xl font-thin text-white w-1/3 pr-10">
             The Learners' Japan Exchange Program fosters cultural understanding
             and global citizenship. Participants immerse themselves in Japan's
             rich tradition and innovation, enhancing intercultural communication
@@ -145,13 +145,13 @@ function FeatureSection() {
       </div>
       <div
         className="h-dvh px-10 my-10 feature-image panel x-100"
-        style={{ backgroundImage: `url(${image3})` }}
+        style={{ backgroundImage: `url(${H5})` }}
       >
         <div className="h-52 w-1/3 border-t-2 border-white-500 pt-8 absolute top-32 ">
           <h2 className="text-8xl font-thin text-white">03/04</h2>
         </div>
         <div className="absolute bottom-0 right-0 border-white-500 pt-24 w-screen pb-24 bg-news flex justify-end">
-          <h2 className="text-2xl font-thin text-white w-1/3 pr-10">
+          <h2 className="text-3xl font-thin text-white w-1/3 pr-10">
             The Salesian Youth Movement aims to shape young people into Good
             Christians and Upright Citizens. It brings together youth from
             various backgrounds, schools, and groups, all united by the values
@@ -161,13 +161,13 @@ function FeatureSection() {
       </div>
       <div
         className="h-dvh px-10 my-10 feature-image panel x-100"
-        style={{ backgroundImage: `url(${image4})` }}
+        style={{ backgroundImage: `url(${H6})` }}
       >
         <div className="h-52 w-1/3 border-t-2 border-white-500 pt-8 absolute top-32 ">
           <h2 className="text-8xl font-thin text-white">04/04</h2>
         </div>
         <div className="absolute bottom-0 right-0 border-white-500 pt-24 w-screen pb-24 bg-news flex justify-end">
-          <h2 className="text-2xl font-thin text-white w-1/3 pr-10">
+          <h2 className="text-3xl font-thin text-white w-1/3 pr-10">
             The sports program at Caritas Don Bosco School promotes physical
             fitness, teamwork, and discipline. Through a variety of athletic
             activities, students develop essential life skills while fostering a

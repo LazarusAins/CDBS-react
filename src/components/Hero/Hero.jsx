@@ -51,19 +51,19 @@ function Hero({ type }) {
             </div>
           </div>
           <div className="w-3/5 flex flex-col gap-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "The Gallery showcases the vibrant life of Caritas Don Bosco School,",
                 "capturing moments that reflect our core values and holistic development journey.",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "It features images of students engaging in academic pursuits, community service, cultural celebrations,",
                 "and spiritual activities. Each photograph tells a story of growth, collaboration, and the joy of learning.",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "From classroom projects to school events, the Gallery offers a glimpse into the experiences that shape",
                 "our learners into global thinkers, servant-leaders, and conscientious citizens.",
@@ -87,20 +87,20 @@ function Hero({ type }) {
             </div>
           </div>
           <div className="w-3/5 flex flex-col gap-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "The Admissions section provides essential information for prospective students and families interested",
                 "in joining Caritas Don Bosco School. It outlines the application process requirements, and key dates,",
                 "making it easy to navigate the journey from inquiry to enrollment. ",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "Here, you’ll find details about our holistic K-12 programs, which emphasize academic",
                 "excellence, technical skills, spiritual growth, and community involvement.",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "We welcome learners who are eager to grow in a supportive environment that nurtures their.",
                 " potential and prepares them for a meaningful future.",
@@ -131,7 +131,7 @@ function Hero({ type }) {
               <Button text="LEARN MORE" btnType={1} />
             </div>
           </div>
-          <span className="inline-block italic text-2xl font-thin mb-12 text-white absolute bottom-0 left-10 z-50 typing-effect">
+          <span className="inline-block italic text-3xl font-thin mb-12 text-white absolute bottom-0 left-10 z-50 typing-effect">
             {wrapLetters('"I Love, Therefore, I Serve"')}
           </span>
         </div>
@@ -151,7 +151,7 @@ function Hero({ type }) {
             </div>
           </div>
           <div className="w-3/5 flex flex-col gap-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "The Caritas Sisters of Jesus congregation was founded in 1937 by Salesian Italian priests in Miyazaki, Japan.",
                 "The congregation was led by Fr. Antonio Cavoli, SDB, as its founder, with Venerable Vincent Cimatti,",
@@ -159,13 +159,13 @@ function Hero({ type }) {
                 "for the poor.",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "The sisters' love and self-sacrificing service for the abandoned captured the hearts of many non-Catholics,",
                 "leading them to God and expanding their influence beyond the Catholic community.",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "What began as a small seed of hope grew into a thriving mission. Today, this missionary presence has",
                 "spread across 16 countries, with approximately 1,000 sisters of diverse nationalities, dedicated to",
@@ -190,7 +190,7 @@ function Hero({ type }) {
             </div>
           </div>
           <div className="w-3/5 flex flex-col gap-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "Caritas Don Bosco School is dedicated to developing learners who are global thinkers, servant-leaders, and",
                 "conscientious collaborators. By integrating a holistic project-based learning approach into the K to 12",
@@ -198,13 +198,13 @@ function Hero({ type }) {
                 "and real-world problem-solving. ",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "This innovative educational framework fosters a deeper understanding of diverse perspectives and cultures",
                 "empowering students to engage actively in their communities.",
               ])}
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-1xl">
               {textLines([
                 "Through this approach, Caritas Don Bosco School is committed to realizing its mission of nurturing well-",
                 "rounded individuals prepared to contribute positively to society and make a difference in the world.",
@@ -243,16 +243,16 @@ function Hero({ type }) {
         <div className="w-100 h-48 px-10 border-t border-brand ">
           <div className="flex h-full items-center justify-end gap-64 mr-20">
             <NavLink to="/about">
-              <span className="text-2xl hover:cursor-pointer">About Us</span>
+              <span className="text-3xl hover:cursor-pointer">About Us</span>
             </NavLink>
             <NavLink to="/programs">
-              <span className="text-2xl hover:cursor-pointer">Programs</span>
+              <span className="text-3xl hover:cursor-pointer">Programs</span>
             </NavLink>
             <NavLink to="/admissions">
-              <span className="text-2xl hover:cursor-pointer">Admissions</span>
+              <span className="text-3xl hover:cursor-pointer">Admissions & Enrollment</span>
             </NavLink>
             <NavLink to="/gallery">
-              <span className="text-2xl hover:cursor-pointer">Gallery</span>
+              <span className="text-3xl hover:cursor-pointer">Gallery</span>
             </NavLink>
           </div>
         </div>
